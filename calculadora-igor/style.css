@@ -2,6 +2,9 @@ body {
   margin: 0px;
   font-family: "Poppins", sans-serif;
   background: #fbfbff;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -14,30 +17,55 @@ h1 {
   background: #0394be;
   color: #040f16;
   place-content: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+  width: 100%;
+  position: relative;
 }
 
 .resultado {
   background: #0364be;
   height: 119px;
-  place-content: center start;
+  place-content: center;
+  text-align: end;
   border-radius: 4px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  color: #fbfbff;
+  font-size: 24px;
 }
 
 .calculadora {
+  margin-top: 30px;
+  position: relative;
   display: grid;
-  gap: 40px;
-  grid-template-columns: 4;
+  gap: 20px;
   place-content: center;
-  padding: 60px;
-  border: 2px solid black;
-  width: 300px;
+  border: 15px solid #8093f1;
+  border-radius: 15px;
+  width: 563px;
+  height: 700px;
+  background: #040f16;
 }
 
 .calculadora-botoes button {
-  appearance: none;
-  padding: 30px;
   background: #0364be;
   color: #040f16;
   border-radius: 5px;
   border: none;
+  width: 90px;
+  height: 90px;
+  font-size: 64px;
+  cursor: pointer;
+}
+
+.calculadora-botoes button:hover {
+  background: #025aa5;
 }
