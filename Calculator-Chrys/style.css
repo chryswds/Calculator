@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f7aef8;
 }
 .header {
   width: 580px;
@@ -9,9 +10,8 @@ body {
   position: absolute;
   top: 40%;
   margin-left: -50px;
-  border-top-right-radius:25px ;
-  border-bottom-right-radius:25px ;
-
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 h1 {
@@ -23,20 +23,419 @@ h1 {
   opacity: 100%;
 }
 
-.balls{
-    width:690px;
-    height:670px;
-    background: #fcfccb;
-    border-radius: 760px;
-    margin-top: -220px;
-    margin-left: -350px;
+.balls {
+  width: 690px;
+  height: 670px;
+  background: #fcfccb;
+  border-radius: 760px;
+  margin-top: -220px;
+  margin-left: -350px;
 }
-.balls2{
-    width:690px;
-    height:670px;
-    background: #fcfccb;
-    border-radius: 760px;
-    margin-left: 500px;
-    margin-top: 150px
+.balls2 {
+  width: 690px;
+  height: 670px;
+  background: #fcfccb;
+  border-radius: 760px;
+  margin-left: 500px;
+  margin-top: 150px;
 }
 
+.calculatorFrame {
+  width: 598px;
+  height: 692px;
+  background: #fcfccb;
+  position: absolute;
+  top: 18%;
+  right: 21.5%;
+  border-radius: 25px;
+  opacity: 61%;
+}
+
+.calculator {
+  width: 650px;
+  height: 755px;
+  background: #b388eb;
+  position: absolute;
+  top: 15%;
+  right: 20%;
+  border-radius: 25px;
+  opacity: 50%;
+}
+
+.answer {
+  width: 598px;
+  height: 155px;
+  background: #d4b4ff;
+  position: absolute;
+  top: 18%;
+  right: 21.5%;
+  border-radius: 25px;
+}
+
+.zero {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 81%;
+  left: 4%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.zero:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 81%;
+  left: 4%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.dot {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 81%;
+  left: 27%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.dot:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 81%;
+  left: 27%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.equal {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 81%;
+  left: 50%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.equal:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 81%;
+  left: 50%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.plus {
+  width: 130px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 81%;
+  left: 73%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.plus:hover {
+  width: 130px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 81%;
+  left: 73%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.one {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 62%;
+  left: 4%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.one:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 62%;
+  left: 4%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.two {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 62%;
+  left: 27%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.two:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 62%;
+  left: 27%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.three {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.three:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.minus {
+  width: 130px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 62%;
+  left: 73%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.minus:hover {
+  width: 130px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 62%;
+  left: 73%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.four {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 43%;
+  left: 4%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.four:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 43%;
+  left: 4%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.five {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 43%;
+  left: 27%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.five:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 43%;
+  left: 27%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.six {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.six:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.divide {
+  width: 130px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 43%;
+  left: 73%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.divide:hover {
+  width: 130px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 43%;
+  left: 73%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.seven {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 24%;
+  left: 4%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.seven:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 24%;
+  left: 4%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.eight {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 24%;
+  left: 27%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.eight:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 24%;
+  left: 27%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.nine {
+  width: 111px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+.nine:hover {
+  width: 111px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.times {
+  width: 130px;
+  height: 106px;
+  background: #b388eb;
+  position: absolute;
+  top: 24%;
+  left: 73%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.times:hover {
+  width: 130px;
+  height: 106px;
+  background: #b074ff;
+  position: absolute;
+  top: 24%;
+  left: 73%;
+  font-size: 50px;
+  border: none;
+  border-radius: 25px;
+}
